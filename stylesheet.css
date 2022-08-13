@@ -1,0 +1,272 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6,p,div{
+    font-family: "os2";
+}
+
+
+@font-face {
+    font-family: "os";
+    src: url(static/Oswald-Medium.ttf);  
+}
+@font-face {
+    font-family: "os1";
+    src: url(static/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: "os2";
+    src: url(static/Oswald-Light.ttf);
+}
+@font-face {
+    font-family: "os3";
+    src: url(static/Oswald-SemiBold.ttf);
+}
+
+nav{
+    background-color: black;
+    padding: 0px;
+    margin: none;
+   
+    
+}
+nav a{
+    color: white;
+    font-size: 15x;
+    display: inline-block;
+    padding: 15px;
+}
+nav a:hover,:active{
+   background-color: gray;
+   color: black;
+
+}
+#se{
+    float: right;
+}
+.d1{
+    content: '';
+    clear: both;
+}
+h1{
+    font-family: "os";
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+   
+}
+#span1{
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+#p1{
+    text-align: center;
+    font-family: "os3";
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+}
+
+#pic1{
+    padding-top: 40px;
+}
+#overpic{
+    position: relative;
+}
+#text2{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    color: white;
+    font-family: "os1";
+    font-size: 45px;
+    
+    
+} 
+
+main .leftside{
+    width: 60%;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+  
+}
+main .rightside{
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 150px;
+    display: inline-block;
+    float: right;
+   
+
+
+}
+    
+
+#ja{
+    font-family: "os2";
+    font-size: 30px;
+    letter-spacing: 5px;
+} 
+#b1{
+    font-family: "os2";
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 1px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+#b1:hover,:active{
+    background-color:lightgray;
+    color: black;
+}  
+.title{
+    font-family: "os2";
+    font-size: 25px;
+    text-align: center;
+}
+.p2{
+    font-size: 18px;
+    text-align: center;
+}
+.s1{
+    color: gray;
+}
+.hat{
+    width: 870px;
+    max-height: 1170px;
+    border: 1px solid;
+    border-color: gray;
+    padding: 3px;
+    padding-bottom: 5px;
+}
+.as{
+    font-family: "os3";
+    color: black;
+}
+.myname{
+    max-width: 450px;
+    max-height: 300px;
+    
+}
+#p3{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+#my{
+    font-family: "os3";
+    font-size: 22px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.imggirl{
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.like{
+    font-family: "os3";
+    font-size: 20px;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    margin-left: 30px;
+    border: 1px solid ;
+    border-color:black ;
+    cursor: pointer;
+}
+.ll{
+    color: black;
+    padding-right: 10px; ;
+}
+.like:hover,:active{
+    background-color: lightgray;
+    color: black;
+}
+.rep{
+    font-family: "os3";
+    font-size: 20px;
+    padding: 8px;
+    color: whitesmoke;
+    background-color: black;
+    margin-right: 30px;
+    border: 5px ;
+    cursor: pointer;
+    float: right;
+}
+.rep:hover,:active{
+    background-color: lightgray;
+    color: black;
+}
+.fontt{
+    font-family: "os2";
+    font-size: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    letter-spacing: 1.5px;  
+}
+.piclist{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+.righttitle{
+    padding: 0px;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    
+}
+.righttitle :hover,:active{
+    background-color: gray;
+    color: black;
+}
+.first{
+    font-size: 20px;
+}
+#ad{
+    text-align: center;
+    padding: 100px;
+    letter-spacing: 1px;
+    border: 10px solid lightgray;
+    background-color: #F1F1F1;
+
+} 
+#ta{
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+}
+
+#fash{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+.zx{
+    background-color: lightgray;
+    margin: 10px; 
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.picins{
+    width: 175px;
+    height: 100px;
+    padding: 10px;
+}
+
