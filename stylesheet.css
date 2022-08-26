@@ -6,7 +6,9 @@
 h1,h2,h3,h4,h5,h6,p,div{
     font-family: "os2";
 }
-
+body{
+    background-color: white;
+}
 
 @font-face {
     font-family: "os";
@@ -87,23 +89,21 @@ h1{
     
     
 } 
-
+main{
+}
 main .leftside{
     width: 60%;
     padding: 20px;
-    display: inline-block;
     float: left;
+    display: inline-block;
+    
   
 }
 main .rightside{
     width: 30%;
     padding: 20px;
-    margin-bottom: 150px;
-    display: inline-block;
     float: right;
-   
-
-
+    display: inline-block;
 }
     
 
@@ -131,11 +131,14 @@ main .rightside{
 .title{
     font-family: "os2";
     font-size: 25px;
+    padding: 5px;
+    
     text-align: center;
 }
 .p2{
     font-size: 18px;
     text-align: center;
+    padding: 15px;
 }
 .s1{
     color: gray;
@@ -145,8 +148,9 @@ main .rightside{
     max-height: 1170px;
     border: 1px solid;
     border-color: gray;
-    padding: 3px;
+    padding: 20px;
     padding-bottom: 5px;
+    margin-top: 30px;
 }
 .as{
     font-family: "os3";
@@ -155,13 +159,15 @@ main .rightside{
 .myname{
     max-width: 450px;
     max-height: 300px;
-    
+   margin-bottom: 220px;
+   background-color: black;
 }
 #p3{
     font-size: 18px;
     background-color: black;
     color: white;
     padding: 8px;
+    margin-top: -10px;
 }
 #my{
     font-family: "os3";
@@ -173,6 +179,7 @@ main .rightside{
 .imggirl{
     margin-bottom: 0px;
     padding-left: 20px;
+    width: 100%;
 }
 .like{
     font-family: "os3";
@@ -181,9 +188,11 @@ main .rightside{
     color: black;
     background-color: white;
     margin-left: 30px;
+    margin-bottom: 30px;
     border: 1px solid ;
     border-color:black ;
     cursor: pointer;
+
 }
 .ll{
     color: black;
@@ -215,10 +224,11 @@ main .rightside{
     background-color: black;
     color: white;
     letter-spacing: 1.5px;  
+    margin-top: 50px;
 }
 .piclist{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 10px;
     display: inline-block;
 }
@@ -234,6 +244,7 @@ main .rightside{
 }
 .first{
     font-size: 20px;
+    vertical-align: top;
 }
 #ad{
     text-align: center;
@@ -269,4 +280,75 @@ main .rightside{
     height: 100px;
     padding: 10px;
 }
-
+#followwme{
+    size: 20px;
+    border: 1px solid black;
+    
+}
+.followme{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+}
+#subscribe-p{
+    font-size: 20px;
+    padding: 18px;
+}
+.input{
+    width: 100%;
+    border: 2px solid lightgray;
+    padding: 10px;
+}
+#b-sub{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(237, 54, 54);
+    border: none;
+    cursor: pointer;
+}
+#b-sub:hover,:active{
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+.footer{
+    background-color: #616161;
+}
+.b-footer{
+    font-family: "os3";
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.b-footer:hover,:active{
+    color: black;
+    background-color: lightgray;
+}
+.fff{
+    color: white;
+    padding-right: 8px;
+}
+.fff:hover,:active{
+    color: black;
+}
+.footer p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    color: white;
+}
+.footer a{
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    color: white;
+}
